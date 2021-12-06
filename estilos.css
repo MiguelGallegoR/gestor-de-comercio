@@ -1,0 +1,140 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.clearfix{
+    clear: both;
+    display: block;
+    
+}
+
+
+.contenedor-index{
+    display: block;
+    margin-top: 50px;
+    background: #d2e8ff;
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #88919f;
+    text-align: left;
+   
+}
+
+
+/*todo esto es de index.php*/
+label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+   
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    
+    background: #f1f5f9;
+    border: 2px solid #D6D6D6 ;
+    
+}
+input[type="button"],
+input[type="submit"]{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: block;
+    border-radius: 2px;
+    color: white;
+    background: #71aeed;
+    border: 2px solid #6681af;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+}
+
+form{
+    
+margin-left: 140px;
+
+}
+
+
+/*Acceso .php*/
+
+
+.contenedor-acceso{
+    
+    display: block;
+    margin-top: 50px;
+    background: #d2e8ff;
+    width: 520px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #88919f;
+
+    
+}
+
+#boton-articulos,#boton-usuarios{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    background: #71aeed;
+    border: 2px solid #6681af;
+    cursor: pointer;
+    padding: 30px;
+    width: 200px;
+}
+
+#boton-volver{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    color: white;
+    background: #71aeed;
+    border: 2px solid #6681af;
+    cursor: pointer;
+    padding: 8px;
+    width: 100px;
+    
+}
+
+.a-acceso{
+    text-decoration: none;
+}
+
+.contenedor-formArticulos,
+.contenedor-formUsuarios{
+    display: block;
+    margin-top: 50px;
+    background: #d2e8ff;
+    width: 600px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #88919f;
+    text-align: left;
+   
+}
